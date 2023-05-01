@@ -1,0 +1,26 @@
+{
+  "name": "serveless-apollo",
+  "author": "Josiah Liciaga-Silva<josiah.liciagasilva@pm.me>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "terraform:init": "cd src/terraform && terraform init",
+    "terraform:apply": "cd src/terraform && terraform apply"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.0",
+    "@as-integrations/aws-lambda": "^2.0.1",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "@types/webpack-env": "^1.18.0",
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

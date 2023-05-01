@@ -1,0 +1,11 @@
+/dist
+/node_modules/
+/src/terraform/.terraform
+/src/terraform/.terraform.lock.hcl
+/src/terraform/terraform.tfstate
+/src/terraform/terraform.tfstate.backup
+/src/terraform/terraform.tfvars
+/src/terraform/terraform.tfvars.json
+/src/terraform/terraform.rc
+/src/terraform/terraform.d/plugins
+/src/terraform/lambda.zip
